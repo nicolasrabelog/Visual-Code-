@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de navegação</title>
+    <style>
+        * {
+            margin: 0;
+            /*Removendo as margens padrão*/
+            padding: 0;
+            /*Remevendo o preechimento padrão*/
+            box-sizing: border-box;
+            /*ajusta o padding e o margin do elemento para que todos os elementos internos sejam considerados como se estivessem dentro do elemento*/
+        }
+
+        /*Estilizar o cabeçalho*/
+        header {
+            background-color: #333;
+            /*define a cor de fundo do cabeçalho*/
+            padding: 20px 0px;
+            /*Adciona espaçamento na parte superior e inferior do cabeçalho*/
+        }
+
+        nav ul {
+
+            display: flex;
+            /*define a exibição dos itens da lista para linha*/
+            list-style: none;
+            /*Remove os marcadores*/
+            justify-content: center;
+            /*Centralizar os itens do menu ao centro*/
+            margin: 15px;
+            /*define espaçamento entre linhas*/
+        }
+
+        nav ul li a {
+            color: white;
+            /*cor da letra branca*/
+            text-decoration: none;
+            /*removendo o sublinhado*/
+            font-weight: bold;
+            /*define os textos do link em negrito*/
+            padding: 5px 10px;
+            transition: color 0.10s;
+        }
+
+        nav ul li a:hover {
+            color: bisque;
+            /*Efeito ao passar o mouse*/
+        }
+
+        section {
+            padding: 60px 20px; 
+            text-align: center;
+            height: 900px;
+
+        }
+        #imagem {
+            padding: 50px;
+        }
+        
+
+        #home {
+            background-color: beige;
+        }
+
+        #sobre {
+            background-color: rgb(37, 100, 121);
+
+        }
+
+        #contato {
+            background-color: lavender;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Menu-Navegacao">
+        <header><!--cabeçalho do menu de navegação -->
+            <nav><!--Indica que tudo que esta dentro dela faz parte da nevegação da pagina-->
+                <ul><!--Lista não ordenada-->
+                    <li><a href="#home">Home</a></li><!--link para secão home-->
+                    <li><a href="#sobre">Sobre</a></li><!--link para secão sobre-->
+                    <li><a href="#contato">Contato</a></li> <!--link para secão contato-->
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section id="home">
+
+        <h1>Maria Lurdes</h1>
+        <p>Estudo sobre natureza e ecologia</p>
+        <h2>Lavanda</h2>
+        <div id="imagem">
+        <img src="./img/depositphotos_21252833-stock-photo-sunset-over-a-summer-lavender.jpg" alt="50px">
+        <p>A lavanda é uma planta bastante conhecida pela sua cor, aroma e utilidades possíveis com esta planta. O seu óleo é utilizado para fragrâncias, remedios ecolõgicamente medicinais que trazem diversos benefícios para a saúde em diversas áreas do nosso organismo e doenças crônicas, como; ansiedade, insônia, depressão, dores de cabeça, acne, irritações na pele e várias outras funções. O nome se deriva da raiz latina "Lavrare" que literalmente significa "lavar". No Brasil, ela tambem é conhecida como alfazema.</p>
+        <h2>Flor de Lótus</h2>
+        <div id="imagem">
+        <img src="./img/flor-de-lotus_1122-2705.jpg" alt="50px">
+        <p>Na literatura clássica asiática a flor de lótus tem vários significados como elegância, pureza, graciosidade e perfeição. No simbolismo budista, o significado mais importante da flor de lótus é pureza do corpo e da mente sendo muito relacionado a pureza espiritual. Diz a lenda que quando o menino Buda deu os primeiros passos, em todos os lugares que pisou, flores de lótus desabrocharam. A flor costuma planar sobre a água em busca de luz com a promessa de pureza e elevação espiritual.</p>
+        <p>A flor de lótus representa um mistério para a ciência, que não consegue explicar a característica própria que possui de repelir microorganismos e partículas de pó. Sendo uma planta muito usada em tatuagens com diferentes significados para cada dor da flor.</p>
+        <p>Lótus Azul: remete para o triunfo do espírito em relação aos sentidos, significa sabedoria e conhecimento. Esta flor nunca revela o seu interior, porque está quase sempre totalmente fechada.</p>
+        <p>Lótus Branca: está relacionada com a perfeição do espírito e da mente, estado de pureza total e natureza imaculada. Normalmente é representada com 8 pétalas.</p>
+        <p>Lótus Vermelha: revela a candura e natureza original do coração. Esta flor corresponde às qualidades do coração, como o amor, paixão e compaixão. É também conhecida como a flor do Buda da Compaixão, Avalokitesvara.</p>
+        <p>Lótus Rosa: apesar de muitas vezes ser confundida com a flor de lótus branca, a lótus rosa é a mais importante e especial de todas as lótus, estando relacionada com personagens divinas, como é o caso do Grande Buda.</p>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h1>Sobre Nós</h1>
+        <p>Estudo sobre natureza, ecologia e produções produtivas em um só lugar.</p>
+
+    </section>
+
+    <section id="contato">
+        <h1>Contato</h1>
+        <p>Detalhes para entrar em contato</p>
+    </section>
+</body>
+
+</html>
