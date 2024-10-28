@@ -1,0 +1,10 @@
+nome = input("Digite seu nome ")
+print('hello world', nome)
+n1 = int (input("Digite o primeiro numero "))
+n2 = int(input("Digite o segundo numero "))
+soma = n1+n2
+sub = n1-n2
+# comentario usar todos os operadores + - * // % **
+
+print('resultado da soma', soma)
+print('resultado da subtração', sub)
