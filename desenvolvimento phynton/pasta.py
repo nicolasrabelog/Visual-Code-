@@ -86,9 +86,11 @@ altura = float(input("Digite a altura da parede (em metros): "))
 area = largura * altura
 # Calcula a quantidade de tinta necessária (1 litro cobre 2 m²)
 quantidade_tinta = area / 2
+
 # Exibe os resultados
 print(f"A área a ser pintada é {area} m².")
 print(f"A quantidade de tinta necessária é {quantidade_tinta} litros.")
+print("será necessario ", quant_litros, "litros")
 
 11)
 # Solicita os coeficientes A, B e C da equação do segundo grau
