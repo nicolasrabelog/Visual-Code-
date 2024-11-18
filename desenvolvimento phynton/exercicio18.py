@@ -8,3 +8,6 @@ if a==b and a==c :
 elif a! =b and a!=c and b!=c :
     print("ESCALENO")
 else :
+    print("ISÓSCELES")
+else:
+    print("Os valores informados não formam um triangulo")
