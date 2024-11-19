@@ -10,3 +10,4 @@ else :
 total_a_pagar = compra - desconto
 print("Você teve um desconto de", val_desconto)
 print(f"O valor final a pagar R$ {total_a_pagar:.2f}")
+
